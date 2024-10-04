@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+.container{
+    display:flex;
+    background-color:gainsboro;
+    
+}
+
+.my-self{
+    
+    width:20%;
+  
+    display:inline-block;
+    border-Style:solid;
+    border-color:gray;
+    border-left:0px;
+    border-top:0px;
+    border-bottom:0px;
+    background-color:white;
+    box-shadow:
+    
+       
+}
+.name_space{
+ position:relative;
+ top:0;
+}
+
+.name_space img{
+    width:100%;
+    height:250px;
+    
+    display:inline-block;
+   
+}
+.name_space h2{
+    position:absolute;
+    bottom:40px;
+    background-color: transparent;
+    color:white;
+    margin-left:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+.personal{
+ margin:20px;
+    
+}
+.personal_detailes{
+    margin-top:10px;
+    list-style-type:none;
+}
+.ps{
+    display:inline;
+    margin-left:5px;
+}
+.skills{
+    display:inline;
+    margin-left:15px;
+    font-weight: bold;
+}
+.skills-image{
+    margin-top:10px;
+
+}
+.progress-container{
+    height:14px;
+      background-color: #ddd;
+      border-radius: 10px;
+}
+.progress{
+height:14px;
+border-radius:10px;
+background-color:green;
+text-align:center;
+color:white;
+
+
+}
+.skill-values{
+    padding:10px;
+}
+.language{
+    display:inline;
+    margin-left:10px;
+    text-align:center ;
+    font-weight:bold ;
+  
+}
+.language-image{
+    margin-top:20px;
+}
+.prograss-container1{
+height:14px;
+border-radius:10px;
+background-color: #ddd;
+
+}
+.progress1{
+    height:14px;
+    border-radius:10px;
+    background-color:green;
+}
+
+    .language-progress{
+        margin:10px;
+    }
+    
+    
+.work{
+    
+    flex-direction: row;
+    margin-left:20px;
+    background-color:white;
+    width:100%;
+    height:30%;
+    
+    
+}
+.workExp{
+    display:inline-block;
+    margin-left:20px;
+    padding-top:20px;
+    color:grey;
+    
+    font-size: xx-large;
+    
+}
+.work-image{
+    margin:20px;
+    margin-top:10px;
+    display:inline-block;
+
+}
+.dev{
+    margin:20px;
+    color:grey;
+    font-size:large;
+
+}
+.date{
+    display:inline;
+    color:green;
+    margin-left:5px
+}
+.date-image{
+    margin-left:20px;
+}
+.work button{
+    background-color:green;
+    color:white;
+    border-radius:3px;
+    padding:3px;
+}
+.para{
+    margin:20px;
+    color:grey;
+    
+}
+.work hr{
+    
+    margin-left:20px;
+    margin-right:20px
+}
+    
+   .education{
+flex-direction:row;
+
+margin-left:20px;
+margin-top:10px;
+background-color:white;
+
+height:30%;
+    }
+
+    
