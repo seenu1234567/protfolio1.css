@@ -7,7 +7,7 @@
 }
 .container{
     display:flex;
-    background-color:gainsboro;
+    background-color:white;
    
 }
 /* photo div*/
@@ -15,12 +15,12 @@
 
 .my-self{
     
-    width:50%;
+    width:45%;
     display:inline-block;
     background-color:white;
     margin:15px;
-   /* box-shadow:4px 4px 5px;*/
-    height:fit-content
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        height:fit-content;
     
 }
 /*personal details div*/
@@ -56,20 +56,20 @@
 .ps{
     display:inline;
     margin-left:5px;
-    color:grey;
+    color:#757575;
     font-size:16px;
 }
 
+.personal i{
+margin:0;
+padding:5px
+}
 /*Skills*/
 .skills{
     display:inline;
     margin-left:15px;
     font-weight: bold;
-    color:grey;
-}
-.skills-image{
-    margin-top:10px;
-
+    color:#757575;
 }
 .progress-container{
     height:14px;
@@ -87,44 +87,61 @@ font-size:12px;
 
 }
 .skill-values{
-    padding:10px;
-    color:grey;
+    
+    padding-left:2px;
+    color:black;
+    opacity:0.60;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 /* Language*/
 .language{
     display:inline;
-    margin-left:10px;
-    text-align:center ;
-    font-weight:bold ;
-    color:grey;
+    margin-left:5px;
+   text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+    opacity: 0.60;
+    margin-top:30px;
   
 }
-.language-image{
-    margin-top:20px;
+#one{
+    margin-top:30px;
+    font-size:20px;
 }
-.prograss-container1{
-height:14px;
+.progress-container1{
+height:24px;
 border-radius:10px;
 background-color: #ddd;
 
 }
+
+
 .progress1{
-    height:14px;
+    height:24px;
     border-radius:10px;
     background-color:#009688;
 }
 
     .language-progress{
-        margin:10px;
-        color:grey;
+        margin-left:5px;
+        margin-top:10px;
+        margin-bottom:10px;
+
+        color:black;
+        opacity:0.60;
+
     }
-    
+   
   /* work experience div*/  
   .container1{
     display:flex;
     flex-direction:column;
-    background-color:gainsboro;
+    background-color:white;
     margin:15px;
+    
+
 
   }
 .work{
@@ -135,18 +152,18 @@ background-color: #ddd;
     width:100%;
    height:fit-content;
 
- /* box-shadow:4px 4px 4px;*/
-    
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     
 }
 .workExp{
     display:inline-block;
     margin-left:25px;
     padding-top:10px;
-    color:grey;
-    
+    color:black;
+    opacity:0.60;
     font-size: xx-large;
-    
+
 }
 .work-image{
     margin:20px;
@@ -155,24 +172,29 @@ background-color: #ddd;
 
 }
 .dev{
-    margin:20px;
-    color:grey;
+    margin:25px;
+    color:black;
+    opacity:0.60;
     font-size:large;
 
-}
-.date{
+}.date{
     display:inline;
     color:#009688;
-    margin-left:5px
+    margin-left:5px 
 }
+
 .work i{
-    margin-left:25px;  
+    margin-left:25px;
+    display:inline;
+    color:#009688;
+     
 }
 .work button{
     background-color:#009688;
     color:white;
     border-radius:3px;
     padding:3px;
+    border:none;
 }
 .para{
     margin:25px;
@@ -191,42 +213,51 @@ flex-direction:column;
 margin-top:20px;
 background-color:white;
 height:fit-content;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    }
    .education-Title{
-    display:inline;
-    margin-left:25px;
+    margin-left:10px;
     padding-top:10px;
-    color:grey;
-    
+    color:black;
+    opacity:0.60;
+    display:inline;
     font-size: xx-large;
    }
 
 .education-place{
-    margin-left:20px;
-    margin-top:10px;
-    color:grey;
-    font-size:large;
-}
-.fa{
     margin-left:25px;
     margin-top:10px;
+    margin-bottom:10px;
+    color:black;
+    opacity:0.60;
+    font-size:large;
+}
+.education i{
+    margin-left:10px;
+    margin-top:10px;
     color:#009688;
-    
+     
+}
+.two{
+    color:#009688;
 }
 .date-define{
     display:inline;
     color:#009688;
-    margin-left:25px;
+    margin-left:10px;
+    margin-bottom:10px;
 }
 .education-para{
 margin-left:20px;
 margin-top:10px;
+margin-bottom:10px;
 }
 
   .education hr{
     margin-left:20px;
     margin-right:20px
   }
+ 
 
 .fooder{
     background-color: #009688;
@@ -243,6 +274,25 @@ margin:0;
     font-size:16px;
 }
 
+
+@media only screen and (max-width: 768px) {
+        
+    .my-self{
+       width: 100%;
+    }
+   }
+   @media only screen and (max-width: 768px) {
+     
+     .container{
+        flex-direction:column;
+     }
+    }
+    @media only screen and (max-width:768px){
+
+    }.container1{
+     width:100%;
+    }
+ 
   
 
     
