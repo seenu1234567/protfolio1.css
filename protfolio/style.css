@@ -2,28 +2,28 @@
     padding:0;
     margin:0;
 
+    
+
 }
 .container{
     display:flex;
     background-color:gainsboro;
-    
+   
 }
+/* photo div*/
+
 
 .my-self{
     
-    width:20%;
-  
+    width:50%;
     display:inline-block;
-    border-Style:solid;
-    border-color:gray;
-    border-left:0px;
-    border-top:0px;
-    border-bottom:0px;
     background-color:white;
-    box-shadow:
+    margin:15px;
+   /* box-shadow:4px 4px 5px;*/
+    height:fit-content
     
-       
 }
+/*personal details div*/
 .name_space{
  position:relative;
  top:0;
@@ -38,29 +38,34 @@
 }
 .name_space h2{
     position:absolute;
-    bottom:40px;
+    bottom:30px;
     background-color: transparent;
-    color:white;
+    color:black;
     margin-left:10px;
-    font-size:20px;
-    font-weight:bold;
+    font-size:30px;
+    
 }
 .personal{
  margin:20px;
     
 }
 .personal_detailes{
-    margin-top:10px;
+    margin-top:7px;
     list-style-type:none;
 }
 .ps{
     display:inline;
     margin-left:5px;
+    color:grey;
+    font-size:16px;
 }
+
+/*Skills*/
 .skills{
     display:inline;
     margin-left:15px;
     font-weight: bold;
+    color:grey;
 }
 .skills-image{
     margin-top:10px;
@@ -72,22 +77,26 @@
       border-radius: 10px;
 }
 .progress{
-height:14px;
+height:15px;
 border-radius:10px;
-background-color:green;
+background-color:#009688;
 text-align:center;
 color:white;
+font-size:12px;
 
 
 }
 .skill-values{
     padding:10px;
+    color:grey;
 }
+/* Language*/
 .language{
     display:inline;
     margin-left:10px;
     text-align:center ;
     font-weight:bold ;
+    color:grey;
   
 }
 .language-image{
@@ -102,28 +111,38 @@ background-color: #ddd;
 .progress1{
     height:14px;
     border-radius:10px;
-    background-color:green;
+    background-color:#009688;
 }
 
     .language-progress{
         margin:10px;
+        color:grey;
     }
     
-    
+  /* work experience div*/  
+  .container1{
+    display:flex;
+    flex-direction:column;
+    background-color:gainsboro;
+    margin:15px;
+
+  }
 .work{
     
     flex-direction: row;
-    margin-left:20px;
+    
     background-color:white;
     width:100%;
-    height:30%;
+   height:fit-content;
+
+ /* box-shadow:4px 4px 4px;*/
     
     
 }
 .workExp{
     display:inline-block;
-    margin-left:20px;
-    padding-top:20px;
+    margin-left:25px;
+    padding-top:10px;
     color:grey;
     
     font-size: xx-large;
@@ -143,21 +162,21 @@ background-color: #ddd;
 }
 .date{
     display:inline;
-    color:green;
+    color:#009688;
     margin-left:5px
 }
-.date-image{
-    margin-left:20px;
+.work i{
+    margin-left:25px;  
 }
 .work button{
-    background-color:green;
+    background-color:#009688;
     color:white;
     border-radius:3px;
     padding:3px;
 }
 .para{
-    margin:20px;
-    color:grey;
+    margin:25px;
+    color:black;
     
 }
 .work hr{
@@ -167,13 +186,63 @@ background-color: #ddd;
 }
     
    .education{
-flex-direction:row;
+display:flex;
+flex-direction:column;
+margin-top:20px;
+background-color:white;
+height:fit-content;
+   }
+   .education-Title{
+    display:inline;
+    margin-left:25px;
+    padding-top:10px;
+    color:grey;
+    
+    font-size: xx-large;
+   }
 
+.education-place{
+    margin-left:20px;
+    margin-top:10px;
+    color:grey;
+    font-size:large;
+}
+.fa{
+    margin-left:25px;
+    margin-top:10px;
+    color:#009688;
+    
+}
+.date-define{
+    display:inline;
+    color:#009688;
+    margin-left:25px;
+}
+.education-para{
 margin-left:20px;
 margin-top:10px;
-background-color:white;
+}
 
-height:30%;
-    }
+  .education hr{
+    margin-left:20px;
+    margin-right:20px
+  }
+
+.fooder{
+    background-color: #009688;
+    color:white;
+    
+    text-align: center;
+}
+.fooder i{
+color:white;
+margin:0;
+} 
+.fooder p{
+    padding:10px;
+    font-size:16px;
+}
+
+  
 
     
